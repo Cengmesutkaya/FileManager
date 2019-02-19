@@ -1,0 +1,13 @@
+﻿FTP IP ADRESİ : 94.73.149.214
+FTP KULLANICI ADI : u7266672
+FTP ŞİFRE : 0eTeF5B47
+
+
+MSSQL BİLGİLERİ
+
+
+Provider= SQLNCLI10 
+Server= 94.73.148.5
+Database = HELIKEDB2017
+Uid = UserHelike
+Pwd = VVks23N4

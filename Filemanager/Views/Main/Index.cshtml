@@ -1,0 +1,17 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "FileManager";
+    Layout = "~/Views/shared/_Layout.basic.cshtml";
+}
+
+
+<input type="button" class="btn btn-primary" value="Open File Manager in Client Mode" onclick="OpenFileMngr(@ViewBag.user_id,@ViewBag.fileRoot,
+                                                                        @ViewBag.serverRoot,false,@ViewBag.useFileTable);" />
+
+
+<input type="button" class="btn btn-primary" value="Open File Manager in Server Mode" onclick="OpenFileMngr(@ViewBag.user_id,@ViewBag.fileRoot,
+                                                                        @ViewBag.serverRoot,true,@ViewBag.useFileTable);" />
+
+
+
